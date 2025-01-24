@@ -7,7 +7,7 @@ const Head = () => (
       type="module"
       dangerouslySetInnerHTML={{
         __html: `
-          import DMChat from "https://d1sggbuco55n6o.cloudfront.net/new-index.js";
+          import DMChat from "https://d1sggbuco55n6o.cloudfront.net/demo-index.js";
           DMChat.start();
         `,
       }}
