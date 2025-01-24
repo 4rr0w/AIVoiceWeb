@@ -7,6 +7,10 @@ const RootLayout = ({ children }) => (
       <link rel="stylesheet" href="https://stijndv.com/fonts/Eudoxus-Sans.css" />
     </head>
     <body>{children}</body>
+    <script type="module" async>
+    import DMChat from "https://d1sggbuco55n6o.cloudfront.net/index.js";
+    DMChat.start()
+  </script>
   </html>
 );
 
